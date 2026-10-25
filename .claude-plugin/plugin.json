@@ -1,0 +1,13 @@
+{
+  "name": "dual-review",
+  "displayName": "Dual Review",
+  "description": "Two independent reviewers (plus a security reviewer on risky changes) review your change in parallel, in fresh sessions, and re-review a shared fix list until both agree. Optionally applies and verifies the fixes.",
+  "author": {
+    "name": "Illia Dolbnia",
+    "url": "https://github.com/Gmust"
+  },
+  "homepage": "https://github.com/Gmust/dual-review",
+  "repository": "https://github.com/Gmust/dual-review",
+  "license": "MIT",
+  "keywords": ["code-review", "review", "security", "subagents", "consensus"]
+}

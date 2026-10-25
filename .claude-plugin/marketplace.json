@@ -1,0 +1,17 @@
+{
+  "name": "dual-review",
+  "owner": {
+    "name": "Illia Dolbnia",
+    "url": "https://github.com/Gmust"
+  },
+  "description": "Consensus code review for Claude Code: two fresh-context reviewers argue each finding to agreement.",
+  "plugins": [
+    {
+      "name": "dual-review",
+      "source": "./",
+      "description": "Two independent reviewers review your change in parallel and re-review a shared fix list until both agree. Optionally applies and verifies the fixes.",
+      "category": "code-review",
+      "tags": ["code-review", "security", "subagents"]
+    }
+  ]
+}
